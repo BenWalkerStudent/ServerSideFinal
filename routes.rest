@@ -1,0 +1,15 @@
+### home page
+GET http://localhost:3000/ 
+### items
+GET http://localhost:3000/items
+### getSingle item
+GET http://localhost:3000/items/66bbb0565dc26645dc359766
+### create gamePOST 
+POST http://localhost:3000/items HTTP/1.1
+Content-Type: application/json
+
+{
+    "Title":"Mario with swords",
+    "Date": 2022,
+    "Genre": "Souls-like"
+}
