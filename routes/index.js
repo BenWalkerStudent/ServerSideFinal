@@ -9,4 +9,8 @@ routes.get("/items/:id", mainController.getSingleGame);
 
 routes.post("/items", mainController.createItem);
 
+routes.patch("/items/:id", mainController.updateGame);
+
+routes.delete("/items/:id", mainController.deleteGame);
+
 module.exports = routes;
